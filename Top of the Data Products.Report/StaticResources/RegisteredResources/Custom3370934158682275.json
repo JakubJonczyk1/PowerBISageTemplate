@@ -1,0 +1,14 @@
+{
+  "name": "Custom",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "transparency": 1
+          }
+        ]
+      }
+    }
+  }
+}

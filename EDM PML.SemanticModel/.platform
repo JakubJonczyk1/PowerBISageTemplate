@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "EDM PML"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f99f54ca-fc7a-4a59-a70d-a4c4a91361f1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "KT View"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "446c4720-3c8c-4412-b76c-29742a35fb18"
+  }
+}

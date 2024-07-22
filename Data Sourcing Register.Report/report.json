@@ -1,0 +1,542 @@
+{
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2},\"customTheme\":{\"name\":\"Sage_Flow5393964279864494.json\",\"version\":\"5.48\",\"type\":1}},\"activeSectionIndex\":0,\"bookmarks\":[{\"displayName\":\"Tabs Closed\",\"name\":\"Bookmarkba9f5ec4b499cd5bbe91\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection093cb32024986db3177a\",\"sections\":{\"ReportSection093cb32024986db3177a\":{\"visualContainers\":{\"078cc92119d00e1aa90c\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Asset Name\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Asset Name\"}}]}}},\"3267fb688eb342823955\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Type of Data Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"d6f30f31a134b7e4a011\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Function Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"d96c4e6d126148beb106\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"SME Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"b7acfa6bd16d83e22080\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Owner Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}},\"options\":{\"targetVisualNames\":[\"10ae31aead047d4b8190\"]}},{\"displayName\":\"Tabs Open\",\"name\":\"Bookmarkdc963cd9eb7d7bcc63e2\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection093cb32024986db3177a\",\"sections\":{\"ReportSection093cb32024986db3177a\":{\"visualContainers\":{\"078cc92119d00e1aa90c\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Asset Name\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Asset Name\"}}]}}},\"3267fb688eb342823955\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Type of Data Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"d6f30f31a134b7e4a011\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Function Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"d96c4e6d126148beb106\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"SME Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"b7acfa6bd16d83e22080\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Owner Measure\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}}],\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"filterPaneHiddenInEditMode\":false,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ReportSectionc711a507821e8cd9eca6",
+      "config": "{\"acceptsFilterContext\":1}",
+      "name": "Pod"
+    },
+    {
+      "boundSection": "ReportSection8b6f418c97588430487e",
+      "config": "{\"acceptsFilterContext\":1}",
+      "name": "Pod1"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "items": [
+          {
+            "name": "Sage_Background5623629244359465.jpg",
+            "path": "Sage_Background5623629244359465.jpg",
+            "type": 100
+          },
+          {
+            "name": "Sage_Flow5393964279864494.json",
+            "path": "Sage_Flow5393964279864494.json",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"203L\"}}}}}]}}",
+      "displayName": "Data Source Distributions",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"15313d5e9ae096ff3494\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.170731707317074,\"y\":51.80487804878049,\"z\":8000,\"width\":235.31707317073173,\"height\":65.85365853658537,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"},\"Name\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"NativeReferenceName\":\"Data Asset Name\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Data Asset Name\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Source Name'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 65.85,
+          "width": 235.32,
+          "x": 13.17,
+          "y": 51.80,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"1eee24d4c932adb9cc4d\",\"layouts\":[{\"id\":0,\"position\":{\"height\":64.3503859093608,\"width\":234.9919866330219,\"x\":774.3526757927913,\"y\":51.700310046836876,\"z\":10000,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region\"},\"Name\":\"Sage Data Source Register v2 (2).Region\",\"NativeReferenceName\":\"Region\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Region\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Region'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter7fa187b454ecd9cb010d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Region\"}},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 64.35,
+          "width": 234.99,
+          "x": 774.35,
+          "y": 51.70,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"2281e295dead2ac7e5bf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":40.30721966205837,\"z\":0,\"width\":1280,\"height\":679.3241167434717,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 679.32,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 40.31,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2c6bdbc4d5d6b9489b03\",\"layouts\":[{\"id\":0,\"position\":{\"x\":428.390243902439,\"y\":0,\"z\":5000,\"width\":423.219512195122,\"height\":40.390243902439025,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Data Sourcing Register-Data Source Distributions\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 40.39,
+          "width": 423.22,
+          "x": 428.39,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"51884a503859a630be0e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":19.23076923076923,\"y\":53.07692307692307,\"z\":4000,\"width\":600,\"height\":315.38461538461536,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\"}],\"Tooltips\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Total Status\"},{\"queryRef\":\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\"}],\"Category\":[{\"queryRef\":\"TAG.Value\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"TAG\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\",\"NativeReferenceName\":\"Number of Data Sources\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Status\"},\"Name\":\"Sage Data Source Register v2 (2).Total Status\",\"NativeReferenceName\":\"Total Data Sources\"},{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\",\"NativeReferenceName\":\"% Of Total\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"TAG\"},\"Name\":\"TAG.Value\",\"NativeReferenceName\":\"Value\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sage Data Source Register v2 (2).Title)\":{\"displayName\":\"Number of Data Sources\"},\"Sage Data Source Register v2 (2).Total Status\":{\"displayName\":\"Total Data Sources\"},\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\":{\"displayName\":\"% Of Total\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Sources by Tag'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 315.38,
+          "width": 600.00,
+          "x": 19.23,
+          "y": 53.08,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"573c7093e4acc903c5e1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":19.23076923076923,\"y\":383.8461538461538,\"z\":1000,\"width\":600,\"height\":314.6153846153846,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Function\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\"}],\"Tooltips\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Total Status\"},{\"queryRef\":\"Min(Sage Data Source Register v2 (2).Title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"},\"Name\":\"Sage Data Source Register v2 (2).Function\",\"NativeReferenceName\":\"Function\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\",\"NativeReferenceName\":\"Number of Data Sources\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Status\"},\"Name\":\"Sage Data Source Register v2 (2).Total Status\",\"NativeReferenceName\":\"Total Data Sources\"},{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":2}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":2}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Min(Sage Data Source Register v2 (2).Title)\",\"NativeReferenceName\":\"% of Total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"Min(Sage Data Source Register v2 (2).Title)\":{\"displayName\":\"% of Total\"},\"Sage Data Source Register v2 (2).Total Status\":{\"displayName\":\"Total Data Sources\"},\"CountNonNull(Sage Data Source Register v2 (2).Title)\":{\"displayName\":\"Number of Data Sources\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryAxis\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Sources by Function'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter56709121907070e4cce0\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Function\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'N/a'\"}}],[{\"Literal\":{\"Value\":\"'Other'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false},{\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Title\"}},\"Function\":2}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 314.62,
+          "width": 600.00,
+          "x": 19.23,
+          "y": 383.85,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7a5eb7ae568bb1b85140\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.7692307692307,\"y\":383.8461538461538,\"z\":3000,\"width\":600,\"height\":314.6153846153846,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\"}],\"Tooltips\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Total Status\"}],\"Category\":[{\"queryRef\":\"Sage Data Source Register v2 (2).GMO Status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\",\"NativeReferenceName\":\"Number of Data Sources\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Status\"},\"Name\":\"Sage Data Source Register v2 (2).Total Status\",\"NativeReferenceName\":\"Total Data Sources\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"GMO Status\"},\"Name\":\"Sage Data Source Register v2 (2).GMO Status\",\"NativeReferenceName\":\"GMO Status\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"Sage Data Source Register v2 (2).Total Status\":{\"displayName\":\"Total Data Sources\"},\"CountNonNull(Sage Data Source Register v2 (2).Title)\":{\"displayName\":\"Number of Data Sources\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryAxis\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'GMO Status '\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter84c0f2952a58c4e5957a\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Owner\"}},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{}}]},\"isHiddenInViewMode\":false}]",
+          "height": 314.62,
+          "width": 600.00,
+          "x": 650.77,
+          "y": 383.85,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a6a822ca339b6a2753c7\",\"layouts\":[{\"id\":0,\"position\":{\"height\":64.9003892077314,\"width\":234.9919866330219,\"x\":1028.3124202166464,\"y\":51.700310046836876,\"z\":11000,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Function\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"},\"Name\":\"Sage Data Source Register v2 (2).Function\",\"NativeReferenceName\":\"Function\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Function\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Function'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter38a2be1c0eb2174e41d1\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Function\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'N/a'\"}}],[{\"Literal\":{\"Value\":\"'Other'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 64.90,
+          "width": 234.99,
+          "x": 1028.31,
+          "y": 51.70,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"ab76b66349eddc6cc8e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":296,\"z\":6000,\"width\":235,\"height\":64,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Tag\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Tag\"},\"Name\":\"Sage Data Source Register v2 (2).Tag\",\"NativeReferenceName\":\"Tag\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Tag\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tag'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 64.00,
+          "width": 235.00,
+          "x": 10.00,
+          "y": 296.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"b01398d61ea62ceec341\",\"layouts\":[{\"id\":0,\"position\":{\"x\":267.45556266888207,\"y\":52,\"z\":7000,\"width\":234,\"height\":63,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"TAG.Value\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TAG\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"TAG\"},\"Name\":\"TAG.Value\",\"NativeReferenceName\":\"Value\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Tag1\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tag'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 63.00,
+          "width": 234.00,
+          "x": 267.46,
+          "y": 52.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"c07e20b71cc6466400d4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.7692307692307,\"y\":53.07692307692307,\"z\":2000,\"width\":600,\"height\":315.38461538461536,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\"}],\"Category\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Region\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Total Status\"},{\"queryRef\":\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(Sage Data Source Register v2 (2).Title)\",\"NativeReferenceName\":\"Number of Data Sources\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region\"},\"Name\":\"Sage Data Source Register v2 (2).Region\",\"NativeReferenceName\":\"Region\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Status\"},\"Name\":\"Sage Data Source Register v2 (2).Total Status\",\"NativeReferenceName\":\"Total Data Sources\"},{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\",\"NativeReferenceName\":\"% of Total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"Sage Data Source Register v2 (2).Total Status\":{\"displayName\":\"Total Data Sources\"},\"Divide(CountNonNull(Sage Data Source Register v2 (2).Title), ScopedEval(CountNonNull(Sage Data Source Register v2 (2).Title), []))\":{\"displayName\":\"% of Total\"},\"CountNonNull(Sage Data Source Register v2 (2).Title)\":{\"displayName\":\"Number of Data Sources\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Data Sources by Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterdfe03a04516344407ee9\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Region\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'N/a'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 315.38,
+          "width": 600.00,
+          "x": 650.77,
+          "y": 53.08,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c0983c1631ce87ed3b8a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":520.4233204597153,\"y\":52.10445468509985,\"z\":9000,\"width\":234.9615975422427,\"height\":63.901689708141326,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"},\"Name\":\"Sage Data Source Register v2 (2).Status\",\"NativeReferenceName\":\"Status\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Status\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Status'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter2a3512106d2b23d04a47\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Not Needed'\"}}],[{\"Literal\":{\"Value\":\"'Sourcing Analysis Complete (Prioritise)'\"}}],[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 63.90,
+          "width": 234.96,
+          "x": 520.42,
+          "y": 52.10,
+          "z": 9000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"205L\"}}}}}]},\"visibility\":1}",
+      "displayName": "Data Source Snapshot",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection093cb32024986db3177a",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"078cc92119d00e1aa90c\",\"layouts\":[{\"id\":0,\"position\":{\"height\":90.13726735102976,\"width\":1246.829268292683,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"},\"Name\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"NativeReferenceName\":\"Data Asset Name\"}]},\"syncGroup\":{\"groupName\":\"Data Asset Name\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Asset Name'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}},\"parentGroupName\":\"9e8d7774964e27356020\"}",
+          "filters": "[]",
+          "height": 90.14,
+          "width": 1246.83,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"0f93c13c7083ee9647cc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":222.7788441334785,\"y\":360.2745995423341,\"z\":7000,\"width\":185.5072463768116,\"height\":150.3585049580473,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Region Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Region Measure\",\"NativeReferenceName\":\"Region Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.36,
+          "width": 185.51,
+          "x": 222.78,
+          "y": 360.27,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"1fab9e43ee5aa820e716\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.54738706820195,\"y\":538.5296722763508,\"z\":12000,\"width\":404.74756421612045,\"height\":155.3232949512843,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"To request the addition of a new data source to the DSR or request modifications to an existing data source, please use the respective button located on the right.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#00d639\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 155.32,
+          "width": 404.75,
+          "x": 38.55,
+          "y": 538.53,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"3267fb688eb342823955\",\"layouts\":[{\"id\":0,\"position\":{\"x\":437.1942526242823,\"y\":360.2745995423341,\"z\":5000,\"width\":185.5072463768116,\"height\":150.3585049580473,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Type of Data Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Type of Data Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Type of Data Measure\",\"NativeReferenceName\":\"Type of Data Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Type of Data'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.36,
+          "width": 185.51,
+          "x": 437.19,
+          "y": 360.27,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3d5ac3e8631e37d8188a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":454.82926829268297,\"y\":538.2439024390244,\"z\":14000,\"width\":150.14634146341464,\"height\":124.6829268292683,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'bookmarks'\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Register a New Data Source'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 124.68,
+          "width": 150.15,
+          "x": 454.83,
+          "y": 538.24,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"5ef8b7e76e6463b2d3c8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":222.7788441334785,\"y\":184.5308924485126,\"z\":9000,\"width\":185.5072463768116,\"height\":150.3585049580473,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Status Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Status Measure\",\"NativeReferenceName\":\"Status Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Source Status'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.36,
+          "width": 185.51,
+          "x": 222.78,
+          "y": 184.53,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"892e399639a3838b5992\",\"layouts\":[{\"id\":0,\"position\":{\"x\":865.0487156775907,\"y\":184.80070859167404,\"z\":10000,\"width\":390.0088573959256,\"height\":478.44109831709477,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Description Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Description Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Description Measure\",\"NativeReferenceName\":\"Description Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Source Description'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 478.44,
+          "width": 390.01,
+          "x": 865.05,
+          "y": 184.80,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"93cd82da3df749be9401\",\"layouts\":[{\"id\":0,\"position\":{\"x\":664.6829268292684,\"y\":539.1219512195122,\"z\":13000,\"width\":150.14634146341464,\"height\":125.5609756097561,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'bookmarks'\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Amend an Existing Data Source'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 125.56,
+          "width": 150.15,
+          "x": 664.68,
+          "y": 539.12,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"9b1893df14de62dadd96\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":41.29032258064517,\"z\":500,\"width\":1280,\"height\":678.3410138248848,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 678.34,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 41.29,
+          "z": 500.00
+        },
+        {
+          "config": "{\"name\":\"9e8d7774964e27356020\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.902439024390244,\"y\":48.29268292682927,\"z\":1000,\"width\":1246.829268292683,\"height\":89.5609756097561,\"tabOrder\":14000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0,\"objects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 89.56,
+          "width": 1246.83,
+          "x": 7.90,
+          "y": 48.29,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b1c31b5a51c421cca025\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.936226749335695,\"y\":185.93445527015058,\"z\":8000,\"width\":185.93445527015058,\"height\":149.65456155890166,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Data Source Name Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Source Name Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Data Source Name Measure\",\"NativeReferenceName\":\"Data Source Name Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Source Name'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 149.65,
+          "width": 185.93,
+          "x": 7.94,
+          "y": 185.93,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"b5316d9f8f219b226e80\",\"layouts\":[{\"id\":0,\"position\":{\"x\":651.5384615384615,\"y\":360,\"z\":11000,\"width\":177.69230769230768,\"height\":150.76923076923077,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Tag Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Tag Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Tag Measure\",\"NativeReferenceName\":\"Tag Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tag'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.77,
+          "width": 177.69,
+          "x": 651.54,
+          "y": 360.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"b7acfa6bd16d83e22080\",\"layouts\":[{\"id\":0,\"position\":{\"x\":437.1942526242823,\"y\":184.5308924485126,\"z\":2000,\"width\":185.5072463768116,\"height\":150.3585049580473,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Owner Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Owner Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Owner Measure\",\"NativeReferenceName\":\"Owner Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Owner'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.36,
+          "width": 185.51,
+          "x": 437.19,
+          "y": 184.53,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"d1ec496e90ada7600dda\",\"layouts\":[{\"id\":0,\"position\":{\"x\":450.3414634146342,\"y\":0.8780487804878049,\"z\":6000,\"width\":379.3170731707317,\"height\":40.390243902439025,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Data Sourcing Register-Data Source Snapshot\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 40.39,
+          "width": 379.32,
+          "x": 450.34,
+          "y": 0.88,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"d6f30f31a134b7e4a011\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.936226749335695,\"y\":360.53144375553586,\"z\":4000,\"width\":185.93445527015058,\"height\":149.65456155890166,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Function Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function Measure\"},\"Name\":\"Sage Data Source Register v2 (2).Function Measure\",\"NativeReferenceName\":\"Function Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Function'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 149.65,
+          "width": 185.93,
+          "x": 7.94,
+          "y": 360.53,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"d96c4e6d126148beb106\",\"layouts\":[{\"id\":0,\"position\":{\"x\":651.609661115086,\"y\":184.5308924485126,\"z\":3000,\"width\":184.5308924485126,\"height\":150.3585049580473,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).SME Measure\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"SME Measure\"},\"Name\":\"Sage Data Source Register v2 (2).SME Measure\",\"NativeReferenceName\":\"SME Measure\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'SME'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.36,
+          "width": 184.53,
+          "x": 651.61,
+          "y": 184.53,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Glossary ",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection1a70a4b71bad174ebbf9",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"417a754bc31adbc53e10\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.439024390243905,\"y\":70.2439024390244,\"z\":3000,\"width\":1255.609756097561,\"height\":619.9024390243902,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Glossary Excel.Term\"},{\"queryRef\":\"Glossary Excel.Definition \"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Glossary Excel\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Term\"},\"Name\":\"Glossary Excel.Term\",\"NativeReferenceName\":\"Term\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Definition \"},\"Name\":\"Glossary Excel.Definition \",\"NativeReferenceName\":\"Definition \"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"wordWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Glossary'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 619.90,
+          "width": 1255.61,
+          "x": 18.44,
+          "y": 70.24,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"868e586a63637cdd5938\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":41.29032258064517,\"z\":0,\"width\":1280,\"height\":678.3410138248848,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 678.34,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 41.29,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9bd5af08b05e9ed3d297\",\"layouts\":[{\"id\":0,\"position\":{\"x\":487.2948328267477,\"y\":0,\"z\":1000,\"width\":305.41033434650456,\"height\":40.851063829787236,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Data Sourcing Register-Glossary \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 40.85,
+          "width": 305.41,
+          "x": 487.29,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"outspacePane\":[{\"properties\":{\"foregroundColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Home",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection8b6f418c97588430487e",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"04b774b1b880cac3a62f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":10501,\"width\":1280,\"height\":720.1822323462416,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0,\"isHidden\":false}}",
+          "height": 720.18,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 10501.00
+        },
+        {
+          "config": "{\"name\":\"153c8b3db3ad52530100\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.28747795414462,\"y\":85.78483245149911,\"z\":10500,\"width\":599.3650793650793,\"height\":621.9400352733686,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"What is the Data Sourcing Register?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#00d639\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"The Data Sourcing Register (DSR) serves as the central repository\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"for all data source information utilized by Sage. It encompasses a\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"comprehensive inventory of Sage's data assets, detailing the total number of\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"data assets, identifying the accountable parties and those with critical\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"knowledge of each asset, the geographical location of each data source, and\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"other key details, including whether the data source has been integrated into\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"Sage's GMO data warehouse, Snowflake.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Why do we need the Data Sourcing Register?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#00d639\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"The Data Sourcing Register is designed to consolidate key\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"details about our data sources into a single, well-organized platform. It\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"offers a comprehensive view of all data sources, streamlining the process of\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"integration, analysis, and reporting. This centralization not only fosters more\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"effective data management practices but also helps in avoiding redundancy in\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"data sources and related efforts.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Who is responsible for managing the Data Sourcing Register?\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#00d639\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"The responsibility for overseeing the Data Sourcing Register lies\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"with the BI and Analytics Hub. For any inquiries, issues, or feedback related\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"to the DSR, users are encouraged to utilize the 'Feedback/Report an issue'\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"feature, located at the bottom right of the page.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"white\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\"}",
+          "filters": "[]",
+          "height": 621.94,
+          "width": 599.37,
+          "x": 11.29,
+          "y": 85.78,
+          "z": 10500.00
+        },
+        {
+          "config": "{\"name\":\"15f23421d448722de31f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":856.4148565497813,\"y\":580.390243902439,\"z\":10000,\"width\":199.3170731707317,\"height\":127.31707317073172,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Sage Data Source Register v2 (2).Status)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"}},\"Function\":5},\"Name\":\"Min(Sage Data Source Register v2 (2).Status)\",\"NativeReferenceName\":\"Count of Status1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Sources Ingested into Snowflake'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"section\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSectiondfd5704eff0d588ae31d'\"}}}}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\"}",
+          "filters": "[{\"name\":\"Filter972bd33a310912befe87\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Status\"}},\"Function\":5}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"isLockedInViewMode\":true},{\"name\":\"Filter2b9fffe0a9560b0237df\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Data on Snowflake'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 127.32,
+          "width": 199.32,
+          "x": 856.41,
+          "y": 580.39,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"185c9bd9021dac3b12f3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":994.829268292683,\"y\":636.5853658536586,\"z\":11002,\"width\":53.5609756097561,\"height\":37.75609756097561,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"iconSize\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"placement\":{\"expr\":{\"Literal\":{\"Value\":\"'custom'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"hover\"}}],\"text\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"tooltip\":{\"expr\":{\"Literal\":{\"Value\":\"'Not every data source will be ingested into Snowflake; the integration of data into this platform is selective, focusing on viable sources that will provide the most business value.'\"}}},\"showDefaultTooltip\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSectiondfd5704eff0d588ae31d'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 37.76,
+          "width": 53.56,
+          "x": 994.83,
+          "y": 636.59,
+          "z": 11002.00
+        },
+        {
+          "config": "{\"name\":\"1fe1988ca7a8313aae24\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":36.93242217160213,\"z\":1000,\"width\":1280,\"height\":683.2498101746394,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Sage_Background5623629244359465.jpg\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 683.25,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 36.93,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"22bb420138a34a46723c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1071.854103343465,\"y\":580.6686930091186,\"z\":2000,\"width\":200.3647416413374,\"height\":127.4164133738602,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'bookmarks'\"}}}},\"selector\":{\"id\":\"default\"}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Feedback/ Report an issue'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://forms.office.com/r/qKYDQL4Pp9'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 127.42,
+          "width": 200.36,
+          "x": 1071.85,
+          "y": 580.67,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b66484867a32b0440008\",\"layouts\":[{\"id\":0,\"position\":{\"x\":509.76461655277143,\"y\":0,\"z\":1500,\"width\":260.47076689445714,\"height\":36.93242217160213,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Data Sourcing Register\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\"}",
+          "filters": "[]",
+          "height": 36.93,
+          "width": 260.47,
+          "x": 509.76,
+          "y": 0.00,
+          "z": 1500.00
+        },
+        {
+          "config": "{\"name\":\"d21ceb6c89c3c98e5b08\",\"layouts\":[{\"id\":0,\"position\":{\"x\":640.0975609756098,\"y\":580.390243902439,\"z\":6000,\"width\":200.19512195121953,\"height\":127.31707317073172,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Count(Sage Data Source Register v2 (2).Data Asset Name)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"}},\"Function\":5},\"Name\":\"Count(Sage Data Source Register v2 (2).Data Asset Name)\",\"NativeReferenceName\":\"Count of Data Asset Name1\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"}},\"Function\":2}}}]},\"columnProperties\":{\"Sage Data Source Register v2 (2).Data Asset Name\":{\"displayName\":\"Total Number of Data Sources\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Number of Data Sources on the DSR'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}},\"parentGroupName\":\"04b774b1b880cac3a62f\"}",
+          "filters": "[]",
+          "height": 127.32,
+          "width": 200.20,
+          "x": 640.10,
+          "y": 580.39,
+          "z": 6000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"182L\"}}}}}]}}",
+      "displayName": "DSR",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionc711a507821e8cd9eca6",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"42222108ed7eff3ce81c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":42.146341463414636,\"z\":0,\"width\":1280.1951219512196,\"height\":677.8536585365854,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 677.85,
+          "width": 1280.20,
+          "x": 0.00,
+          "y": 42.15,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"52b648360de2713b51e3\",\"layouts\":[{\"id\":0,\"position\":{\"height\":41.80025067616598,\"width\":307.76728272977334,\"x\":487.02772334096824,\"y\":0,\"z\":6000,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Data  Sourcing Register- DSR\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 41.80,
+          "width": 307.77,
+          "x": 487.03,
+          "y": 0.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"654401074c246070ed14\",\"layouts\":[{\"id\":0,\"position\":{\"height\":64.9003892077314,\"width\":234.9919866330219,\"x\":1028.3124202166464,\"y\":51.700310046836876,\"z\":5000,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Function\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"},\"Name\":\"Sage Data Source Register v2 (2).Function\",\"NativeReferenceName\":\"Function\"}]},\"syncGroup\":{\"groupName\":\"Function\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Function'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter38a2be1c0eb2174e41d1\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Function\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'N/a'\"}}],[{\"Literal\":{\"Value\":\"'Other'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 64.90,
+          "width": 234.99,
+          "x": 1028.31,
+          "y": 51.70,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"b279305fc49b2ac55a00\",\"layouts\":[{\"id\":0,\"position\":{\"height\":64.3503859093608,\"width\":234.9919866330219,\"x\":267.4072975765587,\"y\":51.700310046836876,\"z\":7000,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Tag\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Tag\"},\"Name\":\"Sage Data Source Register v2 (2).Tag\",\"NativeReferenceName\":\"Tag\"}]},\"display\":{\"mode\":\"hidden\"},\"syncGroup\":{\"groupName\":\"Tag\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tag'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 64.35,
+          "width": 234.99,
+          "x": 267.41,
+          "y": 51.70,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"bac8bf475c4e1bec3873\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.170731707317074,\"y\":51.80487804878049,\"z\":4000,\"width\":235.31707317073173,\"height\":65.85365853658537,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"},\"Name\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"NativeReferenceName\":\"Data Asset Name\"}]},\"syncGroup\":{\"groupName\":\"Data Asset Name\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Source Name'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 65.85,
+          "width": 235.32,
+          "x": 13.17,
+          "y": 51.80,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"bd9a6ac110402cd5be3e\",\"layouts\":[{\"id\":0,\"position\":{\"height\":64.3503859093608,\"width\":234.9919866330219,\"x\":774.3526757927913,\"y\":51.700310046836876,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region\"},\"Name\":\"Sage Data Source Register v2 (2).Region\",\"NativeReferenceName\":\"Region\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"syncGroup\":{\"groupName\":\"Region\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Region'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter7fa187b454ecd9cb010d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Region\"}},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 64.35,
+          "width": 234.99,
+          "x": 774.35,
+          "y": 51.70,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c112a5105b8b07b92953\",\"layouts\":[{\"id\":0,\"position\":{\"x\":520.4233204597153,\"y\":52.10445468509985,\"z\":3000,\"width\":234.9615975422427,\"height\":63.901689708141326,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Status\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"},\"Name\":\"Sage Data Source Register v2 (2).Status\",\"NativeReferenceName\":\"Status\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Sage Data Source Register v2 (2).Status\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Status\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Status\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Snowflake Status'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter2a3512106d2b23d04a47\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Status\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Not Needed'\"}}],[{\"Literal\":{\"Value\":\"'Sourcing Analysis Complete (Prioritise)'\"}}],[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 63.90,
+          "width": 234.96,
+          "x": 520.42,
+          "y": 52.10,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"e21f02b4ca560c37e034\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.170731707317074,\"y\":140.4878048780488,\"z\":1000,\"width\":1250.3414634146343,\"height\":561.9512195121952,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sage Data Source Register v2 (2).Data Asset Name\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Description\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Status\"},{\"queryRef\":\"Sage Data Source Register v2 (2).GMO Status\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Data Owner\"},{\"queryRef\":\"Sage Data Source Register v2 (2).SME/Steward\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Region\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Product\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Function\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Tag\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Type of Data\"},{\"queryRef\":\"Sage Data Source Register v2 (2).Documentation \"},{\"queryRef\":\"Asset Scoring.Asset Score\"},{\"queryRef\":\"Sum(Asset Scoring.No. Ucs Linked)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"Asset Scoring\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"},\"Name\":\"Sage Data Source Register v2 (2).Data Asset Name\",\"NativeReferenceName\":\"Data Asset Name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Region\"},\"Name\":\"Sage Data Source Register v2 (2).Region\",\"NativeReferenceName\":\"Region\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Status\"},\"Name\":\"Sage Data Source Register v2 (2).Status\",\"NativeReferenceName\":\"Status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Function\"},\"Name\":\"Sage Data Source Register v2 (2).Function\",\"NativeReferenceName\":\"Function\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Description\"},\"Name\":\"Sage Data Source Register v2 (2).Description\",\"NativeReferenceName\":\"Description\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Owner\"},\"Name\":\"Sage Data Source Register v2 (2).Data Owner\",\"NativeReferenceName\":\"Data Owner\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Product\"},\"Name\":\"Sage Data Source Register v2 (2).Product\",\"NativeReferenceName\":\"Product\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"SME/Steward\"},\"Name\":\"Sage Data Source Register v2 (2).SME/Steward\",\"NativeReferenceName\":\"SME/Steward\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Tag\"},\"Name\":\"Sage Data Source Register v2 (2).Tag\",\"NativeReferenceName\":\"Tag\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Type of Data\"},\"Name\":\"Sage Data Source Register v2 (2).Type of Data\",\"NativeReferenceName\":\"Type of Data\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Documentation \"},\"Name\":\"Sage Data Source Register v2 (2).Documentation \",\"NativeReferenceName\":\"Documentation \"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Asset Score\"},\"Name\":\"Asset Scoring.Asset Score\",\"NativeReferenceName\":\"Asset Score\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"No. Ucs Linked\"}},\"Function\":0},\"Name\":\"Sum(Asset Scoring.No. Ucs Linked)\",\"NativeReferenceName\":\"# Linked Use Cases\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"GMO Status\"},\"Name\":\"Sage Data Source Register v2 (2).GMO Status\",\"NativeReferenceName\":\"GMO Status\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"}}}]},\"columnProperties\":{\"Sum(Asset Scoring.No. Ucs Linked)\":{\"displayName\":\"# Linked Use Cases\"}},\"queryOptions\":{\"keepProjectionOrder\":true},\"showAllRoles\":[\"Values\"],\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}],\"total\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"totals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnHeaders\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"values\":[{\"properties\":{\"urlIcon\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"webURL\":{\"expr\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Documentation \"}},\"Function\":3}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"Sage Data Source Register v2 (2).Documentation \"}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"426.7968533737632D\"}}}},\"selector\":{\"metadata\":\"Sage Data Source Register v2 (2).Description\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"131.90242344567207D\"}}}},\"selector\":{\"metadata\":\"Sage Data Source Register v2 (2).Data Owner\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"129.26827646398738D\"}}}},\"selector\":{\"metadata\":\"Sage Data Source Register v2 (2).SME/Steward\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"109.29268503059333D\"}}}},\"selector\":{\"metadata\":\"Sage Data Source Register v2 (2).Type of Data\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"106.46341463414635D\"}}}},\"selector\":{\"metadata\":\"Sage Data Source Register v2 (2).Tag\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"90.63413352326751D\"}}}},\"selector\":{\"metadata\":\"Sum(Asset Scoring.No. Ucs Linked)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Data Sourcing Register'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter8fe5f4e176576350908c\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sage Data Source Register v2 (2)\"}},\"Property\":\"Data Asset Name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sage Data Source Register v2 (2)\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Data Asset Name\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 561.95,
+          "width": 1250.34,
+          "x": 13.17,
+          "y": 140.49,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"ff76213be0cc48a7f4dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":267.45556266888207,\"y\":52,\"z\":8000,\"width\":234,\"height\":63,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"TAG.Value\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TAG\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"TAG\"},\"Name\":\"TAG.Value\",\"NativeReferenceName\":\"Value\"}]},\"syncGroup\":{\"groupName\":\"Tag1\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tag'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 63.00,
+          "width": 234.00,
+          "x": 267.46,
+          "y": 52.00,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Sage_Flow5393964279864494.json"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "[DATAFLOW] - JIRA Hub test"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "014b7240-28c2-4a1b-aae3-5cc14752f874"
+  }
+}

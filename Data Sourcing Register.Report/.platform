@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Data Sourcing Register"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d2d6e769-cd9c-439a-b03f-fa4f364e0334"
+  }
+}

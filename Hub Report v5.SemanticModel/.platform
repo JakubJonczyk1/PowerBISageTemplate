@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Hub Report v5"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "dc62357c-8671-4755-928b-928e54876f0b"
+  }
+}

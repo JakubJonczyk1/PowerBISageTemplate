@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Capacity Performance & Usage"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c6da28fd-c70a-45f2-8870-19080399cd91"
+  }
+}

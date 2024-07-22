@@ -1,0 +1,3862 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"BIlling_Freqency\",\"Channel\",\"Child_SKU_Codes\",\"Country_Code\",\"Debundle\",\"HFM_Product\",\"HFM_Product_Table\",\"PML\",\"PML PVT\",\"Product_Component\",\"Revenue_Classifcation\",\"Tech_Partner_Table\",\"Product_Type\",\"PML_Raw_Product\",\"PML Field Names Mapping\",\"Definitions\",\"Type Definitions\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.126.927.0 (24.02)"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "pml.source_unique_identifier": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "PML",
+                    "ConceptualProperty": "Source_Unique_Identifier"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Unique Identifier": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "pml.source_unit_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "PML",
+                    "ConceptualProperty": "Source_Unit_Code"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "SKU/Other": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "pml.src": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "PML",
+                    "ConceptualProperty": "SRC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "System": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "description": "Errors in queries that were loaded on 21/12/2023 13:24:30.",
+        "folder": "Query Errors - 21/12/2023 13:24:30"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "description": "Errors in queries that were loaded on 05/02/2024 09:35:50.",
+        "folder": "Query Errors - 05/02/2024 09:35:50"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "4fd32e61-becb-4457-8520-44c902d0b96b",
+        "fromColumn": "Channel_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "Channel_Code",
+        "toTable": "Channel"
+      },
+      {
+        "name": "75079bbc-e7c3-4834-9401-d03c4e52e540",
+        "fromColumn": "Channel_Code",
+        "fromTable": "PML",
+        "toColumn": "Channel_Code",
+        "toTable": "Channel"
+      },
+      {
+        "name": "c24b472c-4cca-42f7-a92a-6ec3e81a3ac9",
+        "fromColumn": "HFM_Product_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "HFM_Product_Code",
+        "toTable": "HFM_Product_Table"
+      },
+      {
+        "name": "5cf106ea-f0ca-4913-95a1-f2eb79efd8a3",
+        "fromColumn": "HFM_Product_Code",
+        "fromTable": "PML",
+        "toColumn": "HFM_Product_Code",
+        "toTable": "HFM_Product_Table"
+      },
+      {
+        "name": "21a173cc-c4c8-41a3-8c7b-4d1a78c30cd8",
+        "fromColumn": "HFM_Product_Code",
+        "fromTable": "Product_Component",
+        "toColumn": "HFM_Product_Code",
+        "toTable": "HFM_Product_Table"
+      },
+      {
+        "name": "6d545ee0-5ce0-4747-ae55-6b5732117b11",
+        "fromColumn": "Product_Component_Code",
+        "fromTable": "Child_SKU_Codes",
+        "isActive": false,
+        "toColumn": "Product_Component_Code",
+        "toTable": "Product_Component"
+      },
+      {
+        "name": "6a6404f3-7258-49ed-baad-3a72c9490380",
+        "fromColumn": "Product_Component_Code",
+        "fromTable": "PML",
+        "isActive": false,
+        "toColumn": "Product_Component_Code",
+        "toTable": "Product_Component"
+      },
+      {
+        "name": "b6bea17b-d6b5-400f-8dd6-0ed4326a7448",
+        "fromColumn": "Revenue_Classification_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "Revenue_Classification_Code",
+        "toTable": "Revenue_Classifcation"
+      },
+      {
+        "name": "32b4e94b-76ab-4efb-887f-62bae57d28d7",
+        "fromColumn": "Revenue_Classification_Code",
+        "fromTable": "PML",
+        "toColumn": "Revenue_Classification_Code",
+        "toTable": "Revenue_Classifcation"
+      },
+      {
+        "name": "a8f12e04-7c59-4f84-84bb-7a1e2047a7eb",
+        "fromColumn": "Billing_Frequency_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "Billing_Frequency_Code",
+        "toTable": "BIlling_Freqency"
+      },
+      {
+        "name": "db35df45-4927-4ec7-a86f-ebe61bfb59ce",
+        "fromColumn": "Billing_Frequency_Code",
+        "fromTable": "PML",
+        "toColumn": "Billing_Frequency_Code",
+        "toTable": "BIlling_Freqency"
+      },
+      {
+        "name": "b1217e35-2bff-422d-a87d-c395b253f6b8",
+        "fromColumn": "HFM_Product_Code",
+        "fromTable": "HFM_Product",
+        "toColumn": "HFM_Product_Code",
+        "toTable": "HFM_Product_Table"
+      },
+      {
+        "name": "846f7e63-5ea1-48e9-afec-4eec9469de83",
+        "fromColumn": "Channel_Code",
+        "fromTable": "PML",
+        "toColumn": "Country_Code",
+        "toTable": "Country_Code"
+      },
+      {
+        "name": "32b4fe6b-728a-487b-9be7-35f273bf19b8",
+        "fromColumn": "County_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "Country_Code",
+        "toTable": "Country_Code"
+      },
+      {
+        "name": "ffa75390-a44d-46d0-a217-dac03e66e066",
+        "fromColumn": "Product_Type_Code",
+        "fromTable": "PML",
+        "toColumn": "Product_Type_Code",
+        "toTable": "Product_Type"
+      },
+      {
+        "name": "f310802d-63b8-41d8-b241-7743aa2312b7",
+        "fromColumn": "Product_Type_Code",
+        "fromTable": "Child_SKU_Codes",
+        "toColumn": "Product_Type_Code",
+        "toTable": "Product_Type"
+      },
+      {
+        "name": "fd296254-6471-464b-bd21-c0bbf43ffcff",
+        "fromColumn": "HFM_Product_Code",
+        "fromTable": "PML_Raw_Product",
+        "toColumn": "HFM_Product_Code",
+        "toTable": "HFM_Product_Table"
+      },
+      {
+        "name": "79b74a45-b549-44c5-8ed1-7f9c5b9512d6",
+        "fromColumn": "Tech_Partner_Code",
+        "fromTable": "PML_Raw_Product",
+        "toColumn": "Tech_Partner_Code",
+        "toTable": "Tech_Partner_Table"
+      },
+      {
+        "name": "c34cb9b2-d840-443b-a550-6703ee05709f",
+        "fromColumn": "Raw_Product_Code",
+        "fromTable": "Product_Component",
+        "isActive": false,
+        "toColumn": "Raw_Product_Code",
+        "toTable": "PML_Raw_Product"
+      },
+      {
+        "name": "47000703-aa89-4fe8-85d7-a70626101c87",
+        "fromColumn": "SRC",
+        "fromTable": "PML",
+        "toColumn": "SRC",
+        "toTable": "PML Field Names Mapping"
+      },
+      {
+        "name": "e5e48ceb-df96-4287-a73c-8fd55aceae5a",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Product_Type_Code",
+        "fromTable": "Type Definitions",
+        "toColumn": "Product_Type_Code",
+        "toTable": "Product_Type"
+      },
+      {
+        "name": "5da681e5-0978-4678-9d22-f1c968e5493a",
+        "fromColumn": "Product_Type",
+        "fromTable": "Child_SKU_Codes",
+        "isActive": false,
+        "toColumn": "Product_Type",
+        "toTable": "Type Definitions"
+      },
+      {
+        "name": "47a9b29c-5747-403e-a529-10b0a533e9b3",
+        "fromColumn": "Product_Type",
+        "fromTable": "PML",
+        "isActive": false,
+        "toColumn": "Product_Type",
+        "toTable": "Type Definitions"
+      },
+      {
+        "name": "a7b73d97-35bc-42e5-b6cb-a1a3e9237449",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "order",
+        "fromTable": "BIlling_Freqency",
+        "isActive": false,
+        "toColumn": "order",
+        "toTable": "Country_Code"
+      },
+      {
+        "name": "d399bc23-7783-49ef-8a56-feea3d332afa",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "order",
+        "fromTable": "Channel",
+        "isActive": false,
+        "toColumn": "order",
+        "toTable": "Country_Code"
+      },
+      {
+        "name": "99ca6856-d708-403e-96ee-febbfdc94b2b",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "order",
+        "fromTable": "Revenue_Classifcation",
+        "isActive": false,
+        "toColumn": "order",
+        "toTable": "Country_Code"
+      },
+      {
+        "name": "1d7dd4ad-7a34-44b6-9b95-4c0c0cc8a62c",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Order",
+        "fromTable": "Type Definitions",
+        "toColumn": "Order",
+        "toTable": "Definitions"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "BIlling_Freqency",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Billing_Frequency_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a55b1049-43b9-430f-b352-8cd8d794ec38",
+            "sourceColumn": "Billing_Frequency_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Billing_Frequency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3a657aa1-f8d1-47db-a414-3e0f573da22b",
+            "sortByColumn": "order",
+            "sourceColumn": "Billing_Frequency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8636ce57-4397-4cd1-8595-1dbb9b741b7e",
+            "sourceColumn": "order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "30a47134-d00c-4ee6-99d2-f17bba7f4558",
+        "partitions": [
+          {
+            "name": "BIlling_Freqency",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    BIlling_Freqency_Sheet = Source{[Item=\"BIlling_Freqency\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(BIlling_Freqency_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Billing_Frequency_Code\", type text}, {\"Billing_Frequency\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_cef5ec65-b9e8-4bc8-93ef-ea5366537bff",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "13617ac0-ba6e-4d73-be8f-8edeba75ebef",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "f49d76b0-4f72-4684-bb02-2749a4809498",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "b381d67f-fec1-48c0-91f6-0f0fba58d4ef",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "67a345ab-a1cb-4422-9072-9d1c6fd91846",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "f408917e-d045-4da1-9a6b-e14bedece0a9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "afc44b8e-791d-4e10-aad0-17e9e91f30a9",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "a78bc2d5-1ea8-47f0-b6cd-a77992a7c3f6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "d82068d3-6bdb-4708-ab3b-effd4ebfe747",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "d43efac9-869e-46cd-9130-a454999e97d1",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "cebb82aa-07b4-4dc2-9e49-a6580bb4c36f",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "83595338-7ecd-42ff-9d31-56e3f653e884",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "ca95d3a0-f9bc-4139-bdcd-ed29996bcbb4"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "f8359b17-6364-4f12-abc8-316773fb168f",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_cef5ec65-b9e8-4bc8-93ef-ea5366537bff",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Channel",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Channel_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4f0e2b5-9218-4c58-aec3-5e9e07eff84f",
+            "sourceColumn": "Channel_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1583f8dd-2338-47d0-833b-5c0243f0ebe1",
+            "sortByColumn": "order",
+            "sourceColumn": "Channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "518ad996-19a7-4460-9dda-3f2b63a5e772",
+            "sourceColumn": "order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f169ca1b-2f8a-4a7b-81fc-72dab5a8aa8b",
+        "partitions": [
+          {
+            "name": "Channel",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Channel_Sheet = Source{[Item=\"Channel\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Channel_Sheet, [PromoteAllScalars=true])",
+                "in",
+                "    #\"Promoted Headers\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Child_SKU_Codes",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "437cf85c-5d6d-458f-b462-42fb6b9ab57d",
+            "sourceColumn": "Column6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metadata_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4389d73c-0abb-4099-b365-f1cf6e437d81",
+            "sourceColumn": "Metadata_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "BILLINGPERIOD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4e671727-f628-409a-8eb1-659e99240ed2",
+            "sourceColumn": "BILLINGPERIOD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PRODUCTBILLINGPERIOD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "655451cb-46ac-4d5f-ab26-94a10ee7d94a",
+            "sourceColumn": "PRODUCTBILLINGPERIOD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "County_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4268274c-5304-4002-9001-bd2a21c5d86e",
+            "sourceColumn": "County_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7bc4ea2e-8809-432e-bca5-bfc1e519f8d4",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a362533c-b1ce-47cc-90ba-2e9c0e0809dc",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5d3f1caf-7e5b-4998-99a1-3b27bf236f8a",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Component_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "66afcf94-a691-4f8b-a65a-2db48ba6a98e",
+            "sourceColumn": "Product_Component_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Component",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bada007b-7077-4c43-9d60-7b8543462df4",
+            "sourceColumn": "Product_Component",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f117c0d-200a-4ffd-bc1e-82ea6aefc721",
+            "sourceColumn": "Product_Type_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "133b08e9-a2ed-4cc9-8ee2-24fc786c2224",
+            "sourceColumn": "Product_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue_Classification_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fb1d59f0-4461-4284-a36c-348b115766f6",
+            "sourceColumn": "Revenue_Classification_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue_Classification",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa5b77e0-08b7-4a3e-8cdd-7e802401592b",
+            "sourceColumn": "Revenue_Classification",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Billing_Frequency_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de52e0fb-8e50-4d02-9f49-8a56b707a957",
+            "sourceColumn": "Billing_Frequency_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Billing_Frequency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9cacf1e2-9678-45b6-8328-7bec1a0635d1",
+            "sourceColumn": "Billing_Frequency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "75af5090-5452-495f-a03d-5d1b1f9eced9",
+            "sourceColumn": "Channel_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c878dcbf-a020-448f-8672-249b82e3f977",
+            "sourceColumn": "Channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98ded1ef-436f-418d-af81-9e9bc222afba",
+            "sourceColumn": "Tech_Partner_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea77b1dc-7ef4-4538-ae14-ea9f08700cfa",
+            "sourceColumn": "Tech_Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ownership",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "467be456-880b-463d-a8fb-eaff225b4173",
+            "sourceColumn": "Ownership",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code_Base",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f1df336e-1c1a-44f8-8baf-6f58f213fcb2",
+            "sourceColumn": "Code_Base",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Offering_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b8eb9ed3-eff5-4efb-964f-0bb05105b7fc",
+            "sourceColumn": "Offering_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dad76af5-da89-49e4-8d7a-217f1b9ca89a",
+            "sourceColumn": "Raw_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea3fee4a-7b35-4b26-8531-0b0f51ecc6cd",
+            "sourceColumn": "Raw_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "674e8a2a-ff1d-4be3-91c3-99c97e550987",
+            "sourceColumn": "Custom_Field_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f6fb69b7-f160-4d7f-adf3-302b83d48f58",
+            "sourceColumn": "Custom_Field_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "055df028-672a-4e66-aee5-4298c88a047e",
+            "sourceColumn": "Custom_Field_3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "900aeded-78d3-494d-a8d6-7bc9fb502d39",
+            "sourceColumn": "Custom_Field_4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea2e229e-220b-46c4-98c8-30e4ecf6e218",
+            "sourceColumn": "Custom_Field_5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Child_SKU_Codes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "96fc1d6a-502b-4080-934e-4a5ead6f4133",
+            "sourceColumn": "Child_SKU_Codes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b4bf0501-7fa3-4156-8f32-34a51ed18306",
+            "sourceColumn": "Column4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c654d118-e1be-4d4f-9271-451973d85418",
+            "sourceColumn": "Column5",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d75bf6b5-4316-48e4-b987-c2ce6373cc91",
+        "partitions": [
+          {
+            "name": "Child_SKU_Codes",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Child_SKU_Codes_Sheet = Source{[Item=\"Child_SKU_Codes\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Child_SKU_Codes_Sheet, [PromoteAllScalars=true])",
+                "in",
+                "    #\"Promoted Headers\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Country_Code",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Country_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "982d0bd1-60c7-45a1-a73c-46cd60f3ec96",
+            "sortByColumn": "order",
+            "sourceColumn": "Country_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "13aad82b-b607-454e-966c-1f29377fec3a",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country_Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "049b8cf4-5e6a-4e89-a87e-2b1934201b58",
+            "sourceColumn": "Country_Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country_Legal_Entity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8c817a8c-d5ab-4d55-a8ea-1e3158cde0ff",
+            "sourceColumn": "Country_Legal_Entity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              },
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f34e3a8a-fa6c-432c-ad3d-f6ab5d32ff30",
+            "sourceColumn": "order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "1e8ba662-608b-4c70-a5d7-0062507db1bf",
+        "partitions": [
+          {
+            "name": "Country_Code",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Country_Code_Sheet = Source{[Item=\"Country_Code\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Country_Code_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Country_Code\", type text}, {\"Country\", type text}, {\"Country_Name\", type text}, {\"Country_Legal_Entity\", type any}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Debundle",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "abf1fd5a-4bce-4585-a961-925edbba7db4",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e1bff540-c5dc-4c8d-834c-6b4b79a6aeff",
+            "sourceColumn": "Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DebundleCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c25764d3-d4f4-4f82-8543-2b34890b2074",
+            "sourceColumn": "DebundleCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ValidFromDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4dc110f3-fa2f-42c0-9aff-3436f2dcb1e7",
+            "sourceColumn": "ValidFromDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ValidToDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cd4c7b7b-42c5-4eaa-9309-1a7c0db8deec",
+            "sourceColumn": "ValidToDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ParentStockCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "059886c0-cf84-441e-81a8-4411b57b7964",
+            "sourceColumn": "ParentStockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ChildStockCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52d305b2-4246-4f02-8d23-6861e00d0d42",
+            "sourceColumn": "ChildStockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LastValidated",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "67bfc889-958b-466e-8f0d-f5ca0f1bff83",
+            "sourceColumn": "LastValidated",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Final SCV Tier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8e01327-a8d3-4162-b715-ffa0563b0fcd",
+            "sourceColumn": "Final SCV Tier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ParentScvUpsellFlag",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1596cd5b-660b-43dc-8611-da2a402513c1",
+            "sourceColumn": "ParentScvUpsellFlag",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "962e6c19-4f81-4895-b285-a81938affcd7",
+            "sourceColumn": "Currency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FixedAmount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7e73ff15-fe92-47ad-9a92-6dd16c650765",
+            "sourceColumn": "FixedAmount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PercentageAmount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "06c64c93-571e-4df4-9866-66500dac9295",
+            "sourceColumn": "PercentageAmount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Debundle Invalid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "335e88cc-587b-494c-9a0f-a6a4aa2ab86c",
+            "sourceColumn": "Debundle Invalid",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Debundle Invalid Reason",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a7856f70-adfc-46ac-98d1-964d99b69252",
+            "sourceColumn": "Debundle Invalid Reason",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ParentSaletypeIndicator",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f9e0c036-c8e0-482f-a2a6-ccc514fabcab",
+            "sourceColumn": "ParentSaletypeIndicator",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "AccountNCAType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f011bfd2-3e95-41ef-a3ba-37f1ef1459b6",
+            "sourceColumn": "AccountNCAType",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6bcc7779-f792-4af3-8f7c-14ea0d572c87",
+        "partitions": [
+          {
+            "name": "Debundle",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Debundle_Sheet = Source{[Item=\"Debundle\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Debundle_Sheet, [PromoteAllScalars=true])",
+                "in",
+                "    #\"Promoted Headers\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "HFM_Product",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "07bdd2d8-e87e-445f-b6fb-93a18a57dfa0",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fa753b28-a197-4660-8ca4-d42ddcea3473",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "97fa0579-0361-47ba-844a-43b23e3bde89",
+        "partitions": [
+          {
+            "name": "HFM_Product",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    HFM_Product_Sheet = Source{[Item=\"HFM_Product\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(HFM_Product_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"HFM_Product_Code\", type text}, {\"HFM_Product\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "HFM_Product_Table",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d05f6848-ed28-4ebf-9edc-275630237df0",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5bf744a7-0cbb-4ae2-8cc3-de4f5a68472d",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Marketing_Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "97c0c983-f7ba-4908-b5f7-5ba627b1f157",
+            "sourceColumn": "Product_Marketing_Group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a955cb0c-ff35-44db-ae92-a0134d6327ca",
+            "sourceColumn": "Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business_Unit_DetailCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0857013a-79a1-4a65-88c4-33dc9a054be1",
+            "sourceColumn": "Business_Unit_DetailCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business_Unit_DetailName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3fc98618-5e0d-4afc-bfe7-372bc9654b91",
+            "sourceColumn": "Business_Unit_DetailName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business_UnitCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ed8b8ba-d2d0-406d-aceb-666242856ab1",
+            "sourceColumn": "Business_UnitCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business_UnitName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91a0f5ca-628a-4d16-acf4-0174e3adf5ef",
+            "sourceColumn": "Business_UnitName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business_UnitSummary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0a02144-ee51-4de4-8028-e6723c023488",
+            "sourceColumn": "Business_UnitSummary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FranchiseCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2b0754bc-bc88-4f81-925e-b7e7986ed76d",
+            "sourceColumn": "FranchiseCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FranchiseName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11a5b9cb-6e05-4a7e-accf-df83ee207575",
+            "sourceColumn": "FranchiseName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_GroupCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dc64e8ca-4860-4cf7-98eb-0f287107bb06",
+            "sourceColumn": "Portfolio_GroupCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_GroupName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98737d63-e81e-47b1-bca4-5de573fa0a16",
+            "sourceColumn": "Portfolio_GroupName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_NoCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b4e854dc-396b-4b4e-994b-c0ad196cc0ee",
+            "sourceColumn": "Portfolio_NoCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_NoName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0a2f85f2-0183-405f-8990-fba5c82aa5eb",
+            "sourceColumn": "Portfolio_NoName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quadrant_DetailCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8937ee91-4d91-4512-90d7-83a0640c3f3e",
+            "sourceColumn": "Quadrant_DetailCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quadrant_DetailName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "34bcf2de-86e5-4b41-8f94-130a4ea9932f",
+            "sourceColumn": "Quadrant_DetailName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "QuadrantCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88e425bd-924e-4e3e-a3ac-32e5e950a6d6",
+            "sourceColumn": "QuadrantCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "QuadrantName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c3004624-d92a-4045-8731-798836770a4c",
+            "sourceColumn": "QuadrantName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SBC_DesktopCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b272e6e1-fc0d-4a35-b436-a7ee3704b8fa",
+            "sourceColumn": "SBC_DesktopCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SBC_DesktopName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94174861-aeca-4a6b-9106-b4faa4a9d0ca",
+            "sourceColumn": "SBC_DesktopName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SegmentCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa1b8f82-cef1-4443-abfe-e41a2c118c47",
+            "sourceColumn": "SegmentCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SegmentName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "42c27129-60a5-4578-b076-f456edafa60b",
+            "sourceColumn": "SegmentName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9ab76670-c48a-4f6c-87a1-ce2a0842431b",
+            "sourceColumn": "Type Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9f4ea5e8-01f9-4887-88b3-c0f8af96dc5a",
+            "sourceColumn": "Type Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_SBC_GroupName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5dd240b7-0a9f-4447-b8c9-79c04409af9c",
+            "sourceColumn": "Portfolio_SBC_GroupName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_SBC_GroupNameShort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "040b3623-76cb-4cb6-abc2-489884532bbd",
+            "sourceColumn": "Portfolio_SBC_GroupNameShort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_NoNameShort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fdb55af3-b57e-4fe9-9bd3-35a33e76c87f",
+            "sourceColumn": "Portfolio_NoNameShort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SBC_Desktop_Short",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b1c0c2d4-f460-430e-93c1-1f07acd533f5",
+            "sourceColumn": "SBC_Desktop_Short",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Min_RecordID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1366cfbb-59de-48ce-9bbf-266a34c99a6d",
+            "sourceColumn": "Min_RecordID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "BU_MA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a0b9b821-f939-4a7d-a58a-4bb31942be69",
+            "sourceColumn": "BU_MA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Portfolio_MA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "041e1048-6abd-4f09-98c6-d5c153f2b1d7",
+            "sourceColumn": "Portfolio_MA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P#",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fd3f3d0b-cff2-4e3f-9d0a-6a97e8828523",
+            "sourceColumn": "P#",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "84f3cfd1-4661-4c81-bad0-a3f554cae2b2",
+        "partitions": [
+          {
+            "name": "HFM_Product_Table",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    HFM_Product_Table_Sheet = Source{[Item=\"HFM_Product_Table\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(HFM_Product_Table_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"HFM_Product_Code\", type text}, {\"HFM_Product\", type text}, {\"Product_Marketing_Group\", type text}, {\"Code\", type text}, {\"Business_Unit_DetailCode\", type text}, {\"Business_Unit_DetailName\", type text}, {\"Business_UnitCode\", type text}, {\"Business_UnitName\", type text}, {\"Business_UnitSummary\", type text}, {\"FranchiseCode\", type text}, {\"FranchiseName\", type text}, {\"Portfolio_GroupCode\", type text}, {\"Portfolio_GroupName\", type text}, {\"Portfolio_NoCode\", type text}, {\"Portfolio_NoName\", type text}, {\"Quadrant_DetailCode\", type text}, {\"Quadrant_DetailName\", type text}, {\"QuadrantCode\", type text}, {\"QuadrantName\", type text}, {\"SBC_DesktopCode\", type text}, {\"SBC_DesktopName\", type text}, {\"SegmentCode\", type text}, {\"SegmentName\", type text}, {\"Type Code\", type text}, {\"Type Name\", type text}, {\"Portfolio_SBC_GroupName\", type text}, {\"Portfolio_SBC_GroupNameShort\", type text}, {\"Portfolio_NoNameShort\", type text}, {\"SBC_Desktop_Short\", type text}, {\"Min_RecordID\", Int64.Type}, {\"BU_MA\", type text}, {\"Portfolio_MA\", type text}, {\"P#\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PML",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "SRC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5aa32695-cb2d-4d78-a4c0-c8cf523af45f",
+            "sourceColumn": "SRC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Unit_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dac1d134-e4ce-432c-a24d-ac85afaba603",
+            "sourceColumn": "Source_Unit_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Unique_Identifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba42b919-a878-4c03-8d43-36cf8416ccd5",
+            "sourceColumn": "Source_Unique_Identifier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "63692216-2649-40e3-bff9-51f874964c5f",
+            "sourceColumn": "Source_Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Description_Detail",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "40d173b8-64f2-45d8-bc53-f46479fb192f",
+            "sourceColumn": "Source_Description_Detail",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Billing_Frequency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c3816af9-6d82-4781-9a32-05c1e0265e75",
+            "sourceColumn": "Source_Billing_Frequency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metadata_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6c2b570c-e138-4172-babf-2ca283a8134e",
+            "sourceColumn": "Metadata_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "County_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a227465e-7b6a-4076-bf49-2614a47d9ddb",
+            "sourceColumn": "County_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "83e537b3-3554-4375-a055-ddcd44343023",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3ed32874-3edd-47a7-86a0-906e29ac7f7c",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98128862-1ebf-4ef3-9a6c-de361737c9be",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Component_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88fabdd9-9a28-4d0d-a83c-78f91531c9c3",
+            "sourceColumn": "Product_Component_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Component",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8d6f18d9-a324-439a-ba23-c32b2fd7ec26",
+            "sourceColumn": "Product_Component",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "997a2c66-a343-4608-b42a-f856dec827f6",
+            "sourceColumn": "Product_Type_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a0aa9a28-5e92-4ce5-b427-c6bde1f681cc",
+            "sourceColumn": "Product_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue_Classification_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9f8c2e0d-d57d-4a26-9bfa-9242da40b42c",
+            "sourceColumn": "Revenue_Classification_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue_Classification",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "07483a92-3965-452b-a43d-d491d8d6cc90",
+            "sourceColumn": "Revenue_Classification",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Billing_Frequency_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8f503778-6ebf-47a8-a4d5-a0d10a2a36de",
+            "sourceColumn": "Billing_Frequency_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Billing_Frequency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0bd0c30c-dddc-471f-bbb4-b866f6729cc9",
+            "sourceColumn": "Billing_Frequency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ff0b6e5d-7b4e-4160-8458-d39c0b22bb34",
+            "sourceColumn": "Channel_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c512d9d0-0dfc-4b9f-a1e7-a1d107596e07",
+            "sourceColumn": "Channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f48446e2-903f-42f0-9a9c-2eeb557f4a3f",
+            "sourceColumn": "Tech_Partner_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a672c856-f6f2-4549-b1d4-0033554c36dc",
+            "sourceColumn": "Tech_Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ownership",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4b564913-6aa6-40e2-8eda-e7406420e126",
+            "sourceColumn": "Ownership",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code_Base",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ddb15cec-82b7-4b7b-9f18-6ce1401f8ef2",
+            "sourceColumn": "Code_Base",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Offering_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "651c0762-0b86-4ca8-9350-4164af2751b3",
+            "sourceColumn": "Offering_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "164b1a4c-1c1e-4615-9ffc-5afb367d6b0e",
+            "sourceColumn": "Raw_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "182447dc-a62e-4d90-9f8e-efa4518b305b",
+            "sourceColumn": "Raw_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2ea2d055-a757-467c-8de6-6dc494e3851c",
+            "sourceColumn": "Custom_Field_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "beffc80b-7aeb-48df-9a45-80e41b1971d6",
+            "sourceColumn": "Custom_Field_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f957a770-72b3-45be-94ec-251eca1164a6",
+            "sourceColumn": "Custom_Field_3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f1e65ef3-50c3-41ef-86fe-781107f49d83",
+            "sourceColumn": "Custom_Field_4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom_Field_5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a429879b-71f7-4472-b04b-95dcda3d2062",
+            "sourceColumn": "Custom_Field_5",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "616ff14e-432c-4ff6-b5ed-9b686b45e52b",
+        "partitions": [
+          {
+            "name": "PML",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    PML_Sheet = Source{[Item=\"PML\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(PML_Sheet, [PromoteAllScalars=true])",
+                "in",
+                "    #\"Promoted Headers\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PML PVT",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Row Labels",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "42cd20ce-06ed-4ce6-850b-cac67f240d1b",
+            "sourceColumn": "Row Labels",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Count of Source_Unique_Identifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "34952607-4057-4a94-badb-e75c1bc4110f",
+            "sourceColumn": "Count of Source_Unique_Identifier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "61d7030c-fde7-42a0-a256-0fab98bb4f5c",
+            "sourceColumn": "Column3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8edf0d2f-7afc-4c3d-9712-63300be077ec",
+            "sourceColumn": "Column4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dde3b8f0-ae25-4b03-b983-7d2f919cc3ef",
+            "sourceColumn": "Column5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d63e7bae-d6e6-4fcf-9d97-6b5e280d3564",
+            "sourceColumn": "Column6",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column7",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4b6cd238-5da1-4be8-9bc9-bc2af1a55ab3",
+            "sourceColumn": "Column7",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column8",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c83afb54-3cd5-4591-82bd-88d99758b10a",
+            "sourceColumn": "Column8",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column9",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3536105d-5b80-4e8d-a407-9d02b4dac5da",
+            "sourceColumn": "Column9",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column10",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a6e55c77-00d8-499c-a952-a211f14986d3",
+            "sourceColumn": "Column10",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column11",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "29cb1510-8edb-4e02-a8a0-f1001a354ee8",
+            "sourceColumn": "Column11",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column12",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1f3266bc-465e-4d5a-8fd8-d5c39625f412",
+            "sourceColumn": "Column12",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column13",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a8133b14-9d86-4a66-89da-c95c0391df4d",
+            "sourceColumn": "Column13",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column14",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de6f81bb-3d0e-477b-a9a9-5d29c6a11731",
+            "sourceColumn": "Column14",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Column15",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ed257143-d204-40f1-a4d3-450d0f1b5534",
+            "sourceColumn": "Column15",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "25607104-6f4c-4c39-a06f-1d9c47db4121",
+        "partitions": [
+          {
+            "name": "PML PVT",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    #\"PML PVT_Sheet\" = Source{[Item=\"PML PVT\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"PML PVT_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Row Labels\", type text}, {\"Count of Source_Unique_Identifier\", type any}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Product_Component",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Concat",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "faeebb0b-c48a-4955-84fe-b06fab56aaf3",
+            "sourceColumn": "Concat",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "15433279-6efa-46a1-aaf8-2f2c39561b48",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Component_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "23f8cc20-8b00-4c0b-a62c-2cdaf5c5bf20",
+            "sourceColumn": "Component_Code",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Product_Component_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2354a693-adff-4835-85a5-21e60cf508f6",
+            "sourceColumn": "Product_Component_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8ea193d6-df86-4ae0-8d53-05a07449334f",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Component",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91e5c5c0-7594-4009-b8c0-d065e86c6bde",
+            "sourceColumn": "Product_Component",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "76639fe5-5df9-4ab2-af90-cd196f8faa3e",
+            "sourceColumn": "Raw_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6840ccb2-4bf3-4722-aa11-14b9c08cccdf",
+            "sourceColumn": "Raw_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ownership",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "337bad06-f6c2-404e-ad9d-f9e82244625c",
+            "sourceColumn": "Ownership",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Offering_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1827624c-859c-49ae-b695-0c6e5b54e035",
+            "sourceColumn": "Offering_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code_Base",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "385ce5a1-8ab0-4041-a3fe-fdfdd763f75c",
+            "sourceColumn": "Code_Base",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product Level",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d7cb120e-e5ba-4d10-99fc-df7bfacbf71e",
+            "sourceColumn": "Product Level",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2862e928-e315-41c1-bf45-ae4570110199",
+            "sourceColumn": "Tech_Partner_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Teach_Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e6ba7a9f-3321-4f6b-9ddf-e2a056a7d210",
+            "sourceColumn": "Teach_Partner",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e33d8195-79d5-4024-bf46-407a12f05753",
+        "partitions": [
+          {
+            "name": "Product_Component",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Product_Component_Sheet = Source{[Item=\"Product_Component\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Product_Component_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Concat\", type text}, {\"HFM_Product_Code\", type text}, {\"Component_Code\", Int64.Type}, {\"Product_Component_Code\", type text}, {\"HFM_Product\", type text}, {\"Product_Component\", type text}, {\"Raw_Product_Code\", type text}, {\"Raw_Product\", type text}, {\"Ownership\", type text}, {\"Offering_Type\", type text}, {\"Code_Base\", type text}, {\"Product Level\", type text}, {\"Tech_Partner_Code\", type any}, {\"Teach_Partner\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Revenue_Classifcation",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Revenue_Classification_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "50e29d42-a674-418d-a701-dad4e2ef242d",
+            "sourceColumn": "Revenue_Classification_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue_Classification",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4e013de3-9954-4f01-be87-8977a2b243fc",
+            "sortByColumn": "order",
+            "sourceColumn": "Revenue_Classification",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "14ccfd2e-b08f-41ef-87e2-15282240ec4b",
+            "sourceColumn": "order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "39becee9-9f71-4851-945e-7a6c8c526e96",
+        "partitions": [
+          {
+            "name": "Revenue_Classifcation",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Revenue_Classifcation_Sheet = Source{[Item=\"Revenue_Classifcation\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Revenue_Classifcation_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Revenue_Classification_Code\", Int64.Type}, {\"Revenue_Classification\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tech_Partner_Table",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Tech_Partner_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "371bdb44-22bb-448a-b1f5-729c91e5e4ba",
+            "sourceColumn": "Tech_Partner_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9a1c311f-669c-4062-9050-51205807e012",
+            "sourceColumn": "Tech_Partner_Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Overview",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b4dd4365-e1d7-438e-89c6-cba6e5c1b355",
+            "sourceColumn": "Tech_Partner_Overview",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Agent_Or_Principle",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5aabc417-bfd7-4557-b6a5-eb437930fd21",
+            "sourceColumn": "Tech_Partner_Agent_Or_Principle",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7fd2b0c8-bb6f-41fc-9e81-48cfc3c810d2",
+            "sourceColumn": "Tech_Partner_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "86ef7711-c817-4ed2-aecf-81ef446f03ea",
+            "sourceColumn": "Tech_Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9a19022f-8556-4d27-b07e-5c0733ca2579",
+            "sourceColumn": "Tech_Partner_Level1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Royalty_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "874cae1c-053a-4870-8d8a-9e81216a4394",
+            "sourceColumn": "Tech_Partner_Royalty_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Royalty_Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "57662c29-5981-448c-9d5b-b3ba30762901",
+            "sourceColumn": "Tech_Partner_Royalty_Value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Inbound_Outbound",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e6d02cb9-1e40-4162-beea-840209206e32",
+            "sourceColumn": "Tech_Partner_Inbound_Outbound",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Parner_Global_Account _Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "425e3258-ff65-4d04-a530-6e829fd8d095",
+            "sourceColumn": "Tech_Parner_Global_Account _Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Local_Account_Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b09b12ed-adb7-455c-8189-f7848921d86a",
+            "sourceColumn": "Tech_Partner_Local_Account_Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Review_Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c9e497a-844a-4c51-b891-11a9841a00af",
+            "sourceColumn": "Tech_Partner_Review_Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9ac3d9d7-e52a-4523-86b3-f426b869e6ed",
+            "sourceColumn": "Tech_Partner_Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Agreement_Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "587c05cc-7e46-4790-8400-07a034c3ea69",
+            "sourceColumn": "Tech_Partner_Agreement_Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Discount_Cap",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ef38c65c-925a-4ce4-af6b-370160ac41d0",
+            "sourceColumn": "Tech_Partner_Discount_Cap",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Discount_Cap_Percentage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb639c35-5248-4fe8-8fb0-8a334a61b5b8",
+            "sourceColumn": "Tech_Partner_Discount_Cap_Percentage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Job",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8756ed3-b1c6-4486-8009-6549ae0db88c",
+            "sourceColumn": "Tech_Partner_Job",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ee8fa1f2-a4d0-4c52-9a0a-2812aaf5404f",
+        "partitions": [
+          {
+            "name": "Tech_Partner_Table",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Tech_Partner_Table_Sheet = Source{[Item=\"Tech_Partner_Table\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Tech_Partner_Table_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Tech_Partner_Code\", type text}, {\"Tech_Partner_Country\", type text}, {\"Tech_Partner\", type text}, {\"Tech_Partner_Overview\", type text}, {\"Tech_Partner_Agent_Or_Principle\", type text}, {\"Tech_Partner_Type\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Product_Type",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product_Type_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a330c7e6-1532-428f-b163-84dddd8f6173",
+            "sourceColumn": "Product_Type_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aea77f39-657f-40c5-a5d0-54d6af762dae",
+            "sortByColumn": "order",
+            "sourceColumn": "Product_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bb0156d1-e0f7-4df2-a51a-43299ce703f0",
+            "sourceColumn": "order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "c98e03fe-3830-4431-9d8a-ed53b6437097",
+        "partitions": [
+          {
+            "name": "Product_Type",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Product_Type_Sheet = Source{[Item=\"Product_Type\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Product_Type_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Removed Blank Rows\" = Table.SelectRows(#\"Promoted Headers\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null})))",
+                "in",
+                "    #\"Removed Blank Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PML_Raw_Product",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Raw_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3f298e5f-b543-45e5-b6af-64e77346aac5",
+            "sourceColumn": "Raw_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Raw_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2e2f0d4a-614b-4a9e-b5e6-6de48543a1fd",
+            "sourceColumn": "Raw_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ownership",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b5d9fe96-e63c-4cba-91a4-41468ca17cba",
+            "sourceColumn": "Ownership",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Offering_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cfe9a922-b5b4-4325-a4a4-0ebc102afb2e",
+            "sourceColumn": "Offering_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Code_Base",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ff89fe0-f46a-42a1-a536-3845eab5d958",
+            "sourceColumn": "Code_Base",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1483279a-242b-4b98-8def-93c966dd5e51",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "46f6a6b7-f8b3-4106-be48-9c874a8af2a0",
+            "sourceColumn": "HFM_Product_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HFM_Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "975ac264-6c65-4792-88b8-b1671da44d51",
+            "sourceColumn": "HFM_Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f1431ad-585d-402c-aecc-f02e331094fa",
+            "sourceColumn": "Tech_Partner_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tech_Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d8eaeefd-a05f-4619-9441-daddee5fbed7",
+            "sourceColumn": "Tech_Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "NO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2da8adcf-6231-4390-9fc3-6efc5286aaa8",
+            "sourceColumn": "NO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SWORSR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3060abd1-b37d-44b9-9e6c-c2dc1ad2512c",
+            "sourceColumn": "SWORSR",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SGORTP",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb6afaa0-7d43-4c0f-8e65-4f5c8b0c6e04",
+            "sourceColumn": "SGORTP",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "12adf3e0-7c7b-43e8-97a5-9fd0fdb43d53",
+        "partitions": [
+          {
+            "name": "PML_Raw_Product",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    PML_Raw_Product_Sheet = Source{[Item=\"PML_Raw_Product\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(PML_Raw_Product_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Raw_Product_Code\", type text}, {\"Raw_Product\", type text}, {\"Ownership\", type text}, {\"Offering_Type\", type text}, {\"Code_Base\", type any}, {\"Country\", type text}, {\"HFM_Product_Code\", type text}, {\"HFM_Product\", type any}, {\"Tech_Partner_Code\", type text}, {\"Tech_Partner\", type text}, {\"NO\", Int64.Type}, {\"SWORSR\", type text}, {\"SGORTP\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PML Field Names Mapping",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "SRC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3cb61e2a-430c-40ee-b9ac-7b9e09874cdf",
+            "sourceColumn": "SRC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "886160cf-7843-40cf-a124-d8150898293f",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Unit_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bc9c5cb-a83d-4414-8ad9-cc37ffef73bf",
+            "sourceColumn": "Source_Unit_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Unique_Identifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb1257ac-9db4-486e-8a54-57d3a96ae1a7",
+            "sourceColumn": "Source_Unique_Identifier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b601b18e-8432-4cf9-8a28-45f02b53ce03",
+            "sourceColumn": "Source_Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Description_Detail",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2cc2ffd8-d398-4b5c-9f8f-4a633cb1e6d8",
+            "sourceColumn": "Source_Description_Detail",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Source_Billing_Frequency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c27fbe97-1eea-4732-a230-9c2e9c9544a2",
+            "sourceColumn": "Source_Billing_Frequency",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "952cf700-1ce7-4b4f-8413-cc9184f59e8f",
+        "partitions": [
+          {
+            "name": "PML Field Names Mapping",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    #\"PML Field Names Mapping_Sheet\" = Source{[Item=\"PML Field Names Mapping\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"PML Field Names Mapping_Sheet\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"SRC\", type text}, {\"Country\", type text}, {\"Source_Unit_Code\", type text}, {\"Source_Unique_Identifier\", type text}, {\"Source_Description\", type text}, {\"Source_Description_Detail\", type text}, {\"Source_Billing_Frequency\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Definitions",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Field",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0fc02367-0fac-4438-98c6-7082842e183a",
+            "sortByColumn": "Order",
+            "sourceColumn": "Field",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Definitions",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3324b709-b197-4e21-9e5e-cba48ce01de1",
+            "sourceColumn": "Definitions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "440d77d2-9547-4076-af3a-bf0ed8f46d3d",
+            "sourceColumn": "Order",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "03f32751-2c53-4ec4-9dd2-784e558302c9",
+        "partitions": [
+          {
+            "name": "Definitions",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    Definitions_Sheet = Source{[Item=\"Definitions\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Definitions_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Removed Blank Rows\" = Table.SelectRows(#\"Promoted Headers\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null})))",
+                "in",
+                "    #\"Removed Blank Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Type Definitions",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product_Type_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e06efbf8-19c6-411c-a56b-4215eeac8ee6",
+            "sortByColumn": "Order",
+            "sourceColumn": "Product_Type_Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03acb8a9-69e1-4b9f-bad9-b9a6eac68233",
+            "sourceColumn": "Product_Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Definitions",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "40f4fc89-8025-4749-80d2-85a8cee3f3eb",
+            "sourceColumn": "Definitions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "52403700-a157-45a8-9e00-cf078db97ac3",
+            "sourceColumn": "Order",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7b99c2e9-89bb-48b4-9b88-877a69d4451e",
+        "partitions": [
+          {
+            "name": "Type Definitions",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\matthew.slater\\OneDrive - Sage Software, Inc\\PML\\Sage PML.xlsx\"), null, true),",
+                "    #\"Type Definitions_Sheet\" = Source{[Item=\"Type Definitions\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Type Definitions_Sheet\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Product_Type_Code\", type text}, {\"Product_Type\", type text}, {\"Definitions\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
